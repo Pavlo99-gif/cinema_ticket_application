@@ -17,7 +17,7 @@ import cinema.service.OrderService;
 import cinema.service.ShoppingCartService;
 
 public class Main {
-    private static final Injector injector = Injector.getInstance("mate.academy");
+    private static final Injector injector = Injector.getInstance("cinema");
     
     public static void main(String[] args) throws RegistrationException {
         MovieService movieService =
